@@ -1,5 +1,5 @@
 {% set name = "faraday" %}
-{% set version = "0.16.0" %}
+{% set version = "0.16.1" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: 1520361793212590f39987f15bde7b791978e9320fe1819bb8941043a8d1dc02
+  sha256: 3a079817a0f16d51d92ccaca1465e3b48115550bbd3504033dc9c8947c57ceb1
 
 build:
   noarch: generic
